@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\VMData.cs" />
     <Compile Include="src\Frontend2.Hardware\AbstractHardware.cs" />
     <Compile Include="src\Frontend2.Hardware\CoinChannel.cs" />
     <Compile Include="src\Frontend2.Hardware\CoinEventArgs.cs" />
