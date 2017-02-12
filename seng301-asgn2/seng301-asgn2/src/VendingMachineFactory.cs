@@ -73,12 +73,22 @@ public class VendingMachineFactory : IVendingMachineFactory {
     }
 
     public List<IDeliverable> ExtractFromDeliveryChute(int vmIndex) {
+        if (vmIndex < 0 || vmIndex >= theVendingMachineFactory.Count) throw new Exception("Null vmIndex (PB).");
+        VendingMachine theMachine = theVendingMachineFactory[vmIndex];
+        List<IDeliverable> deliveryContents = new List<IDeliverable>();
+        foreach(IDeliverable item in theMachine.DeliveryChute.RemoveItems()) deliveryContents.Add(item);
         // TODO: Implement
-        return new List<IDeliverable>();
+        return deliveryContents;
     }
 
     public VendingMachineStoredContents UnloadVendingMachine(int vmIndex) {
+        if (vmIndex < 0 || vmIndex >= theVendingMachineFactory.Count) throw new Exception("Null vmIndex (PB).");
+        VendingMachine theMachine = theVendingMachineFactory[vmIndex];
+        VendingMachineStoredContents theMachineContents = new VendingMachineStoredContents();
+        for (int i = 0; i < theMachine.CoinRacks.Length; i++) theMachineContents.CoinsInCoinRacks.Add(theMachine.CoinRacks[i].Unload());
+        for (int i = 0; i < theMachine.PopCanRacks.Length; i++) theMachineContents.PopCansInPopCanRacks.Add(theMachine.PopCanRacks[i].Unload());
+        foreach(Coin profit in theMachine.StorageBin.Unload()) theMachineContents.PaymentCoinsInStorageBin.Add(profit);
         // TODO: Implement
-        return new VendingMachineStoredContents();
+        return theMachineContents;
     }
 }

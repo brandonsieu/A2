@@ -7,7 +7,7 @@ using System.Threading.Tasks;
     class VMData{
 
     public int cashReceptacle = 0;
-    public List<int> coinKinds;
+    public List<int> coinKinds = new List<int>();
 
     public VMData(List<int> coinKind){
         coinKinds.AddRange(coinKind);    
