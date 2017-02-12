@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Frontend2.Coin" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>src\Frontend2\Coin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontend2.PopCan" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Frontend2\PopCan.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontend2.VendingMachineStoredContents" Collapsed="true">
+    <Position X="21.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAABCAAAAAA=</HashCode>
+      <FileName>src\VendingMachineStoredContents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontend2.Hardware.AbstractHardware" Collapsed="true">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAIAAAAAACAIAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>src\Frontend2.Hardware\AbstractHardware.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontend2.Hardware.CoinChannel" Collapsed="true">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAACAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Frontend2.Hardware\CoinChannel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontend2.Hardware.CoinEventArgs" Collapsed="true">
+    <Position X="25.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Frontend2.Hardware\CoinEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontend2.Hardware.CoinRack" Collapsed="true">
+    <Position X="1.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAENEgoQCAAAAAAAAAgAAAoBABAQ=</HashCode>
+      <FileName>src\Frontend2.Hardware\CoinRack.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontend2.Hardware.CoinReceptacle" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAACAAAAAEEQAAEMkAIQCAAAAAIAQAAAAAgAABQA=</HashCode>
+      <FileName>src\Frontend2.Hardware\CoinReceptacle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontend2.Hardware.CoinSlot" Collapsed="true">
+    <Position X="8" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAACBAAgAAAAIAAAgAAAAAAAAQAAAAAAAQ=</HashCode>
+      <FileName>src\Frontend2.Hardware\CoinSlot.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontend2.Hardware.DeliverableEventArgs" Collapsed="true">
+    <Position X="27" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Frontend2.Hardware\DeliverableEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontend2.Hardware.DeliveryChute" Collapsed="true">
+    <Position X="14.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIEAAQCAAAAIAAAAEQCCEAAQAA=</HashCode>
+      <FileName>src\Frontend2.Hardware\DeliveryChute.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontend2.Hardware.Display" Collapsed="true">
+    <Position X="17" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>src\Frontend2.Hardware\Display.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontend2.Hardware.IndicatorLight" Collapsed="true">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="Frontend2.Hardware.AbstractHardware" FixedFromPoint="true">
+      <Path>
+        <Point X="11" Y="4.062" />
+        <Point X="11" Y="4.375" />
+        <Point X="6.5" Y="4.375" />
+        <Point X="6.5" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAIBAAAAAAAAAAAQAAAAgAAAgAAAAAAA=</HashCode>
+      <FileName>src\Frontend2.Hardware\IndicatorLight.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontend2.Hardware.Lock" Collapsed="true">
+    <Position X="19.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAgAAAAAAAAAABABAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>src\Frontend2.Hardware\Lock.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontend2.Hardware.MessageEventArgs" Collapsed="true">
+    <Position X="21.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>src\Frontend2.Hardware\MessageEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontend2.Hardware.PopCanChannel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>src\Frontend2.Hardware\PopCanChannel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontend2.Hardware.PopCanEventArgs" Collapsed="true">
+    <Position X="27" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAACAA=</HashCode>
+      <FileName>src\Frontend2.Hardware\PopCanEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontend2.Hardware.PopCanRack" Collapsed="true">
+    <Position X="10.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAgAADARoQCQAIAAAAEAAAAAAAAAgA=</HashCode>
+      <FileName>src\Frontend2.Hardware\PopCanRack.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontend2.Hardware.SelectionButton" Collapsed="true">
+    <Position X="12.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAEAAA=</HashCode>
+      <FileName>src\Frontend2.Hardware\SelectionButton.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Frontend2.Hardware.VendingMachine" Collapsed="true">
+    <Position X="23.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAARAEAgAEAQABQIQJAhQAAEAAAACAAAmAAAAA=</HashCode>
+      <FileName>src\Frontend2.Hardware\VendingMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontend2.Parser.SENG301VMAnalyzer" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QSAAgEGAAAYgAAIFgAABghAAAIAACAAEBIAgABBAAAA=</HashCode>
+      <FileName>src\Frontend2.Parser\SENG301VMAnalyzer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontend2.Parser.VendingMachineAnalyzer" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQgAgADGooIAKIJVpQRJkxMCKJVECAOKJiogTRWgiDI=</HashCode>
+      <FileName>src\Frontend2.Parser\VendingMachineAnalyzer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontend2.Parser.VendingMachineParser" Collapsed="true">
+    <Position X="27" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Frontend2.Parser\VendingMachineParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Frontend2.Parser.VendingMachineTokenizer" Collapsed="true">
+    <Position X="23.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Frontend2.Parser\VendingMachineTokenizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScriptProcessor" Collapsed="true">
+    <Position X="21.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAABAAAIAA=</HashCode>
+      <FileName>src\ScriptProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VendingMachineFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAEAAhEQAAAAgBAIAAAAgAAAAA=</HashCode>
+      <FileName>src\VendingMachineFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VMData" Collapsed="true">
+    <Position X="25.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAQAAAAAAQAAAgA=</HashCode>
+      <FileName>src\VMData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Frontend2.IDeliverable" Collapsed="true">
+    <Position X="23.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Frontend2\IDeliverable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Frontend2.IVendingMachineFactory" Collapsed="true">
+    <Position X="27" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAhEQAAAAABAIAAAAgAAAAA=</HashCode>
+      <FileName>src\Frontend2\IVendingMachineFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Frontend2.Hardware.ICoinAcceptor" Collapsed="true">
+    <Position X="21.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIEAAQCAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Frontend2.Hardware\ICoinAcceptor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Frontend2.Hardware.ICoinRack" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEEAgAAAAAAAAAAAAAAAAIBABAA=</HashCode>
+      <FileName>src\Frontend2.Hardware\ICoinRack.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Frontend2.Hardware.ICoinReceptacle" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAAAAAAAABQA=</HashCode>
+      <FileName>src\Frontend2.Hardware\ICoinReceptacle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Frontend2.Hardware.ICoinSlot" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>src\Frontend2.Hardware\ICoinSlot.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Frontend2.Hardware.IDeliveryChute" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAEAACAAAQAA=</HashCode>
+      <FileName>src\Frontend2.Hardware\IDeliveryChute.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Frontend2.Hardware.IDisplay" Collapsed="true">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Frontend2.Hardware\IDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Frontend2.Hardware.IHardware" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Frontend2.Hardware\IHardware.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Frontend2.Hardware.IIndicatorLight" Collapsed="true">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Frontend2.Hardware\IIndicatorLight.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Frontend2.Hardware.ILock" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Frontend2.Hardware\ILock.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Frontend2.Hardware.IPopCanAcceptor" Collapsed="true">
+    <Position X="25.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>src\Frontend2.Hardware\IPopCanAcceptor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Frontend2.Hardware.IPopCanRack" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAgAACABAAAAAIAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>src\Frontend2.Hardware\IPopCanRack.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Frontend2.Hardware.ISelectionButton" Collapsed="true">
+    <Position X="19.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>src\Frontend2.Hardware\ISelectionButton.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Frontend2.Parser.VendingMachineConstants" Collapsed="true">
+    <Position X="21.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIBAIESAIABEgAAAAAAEBQkAQAAAIDEEAAAAEQoAaQQ=</HashCode>
+      <FileName>src\Frontend2.Parser\VendingMachineConstants.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

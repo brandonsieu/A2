@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
     <None Include="test-scripts\T01-good-script" />
     <None Include="test-scripts\U01-bad-script1" />
     <None Include="test-scripts\U02-bad-script2" />

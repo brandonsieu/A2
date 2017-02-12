@@ -73,7 +73,7 @@ public class VendingMachineFactory : IVendingMachineFactory {
     }
 
     public List<IDeliverable> ExtractFromDeliveryChute(int vmIndex) {
-        if (vmIndex < 0 || vmIndex >= theVendingMachineFactory.Count) throw new Exception("Null vmIndex (PB).");
+        if (vmIndex < 0 || vmIndex >= theVendingMachineFactory.Count) throw new Exception("Null vmIndex (EFD).");
         VendingMachine theMachine = theVendingMachineFactory[vmIndex];
         List<IDeliverable> deliveryContents = new List<IDeliverable>();
         foreach(IDeliverable item in theMachine.DeliveryChute.RemoveItems()) deliveryContents.Add(item);
@@ -82,7 +82,7 @@ public class VendingMachineFactory : IVendingMachineFactory {
     }
 
     public VendingMachineStoredContents UnloadVendingMachine(int vmIndex) {
-        if (vmIndex < 0 || vmIndex >= theVendingMachineFactory.Count) throw new Exception("Null vmIndex (PB).");
+        if (vmIndex < 0 || vmIndex >= theVendingMachineFactory.Count) throw new Exception("Null vmIndex (UVM).");
         VendingMachine theMachine = theVendingMachineFactory[vmIndex];
         VendingMachineStoredContents theMachineContents = new VendingMachineStoredContents();
         for (int i = 0; i < theMachine.CoinRacks.Length; i++) theMachineContents.CoinsInCoinRacks.Add(theMachine.CoinRacks[i].Unload());
